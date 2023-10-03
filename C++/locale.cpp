@@ -5,8 +5,7 @@
 using namespace boost::locale;
 using namespace std;
 
-int main()
-{
+int main() {
     generator gen;
     locale loc = gen(""); 
     // Create system default locale

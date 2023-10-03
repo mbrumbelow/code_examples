@@ -4,8 +4,7 @@
 
 class A{};
 
-int main()
-{
+int main() {
   boost::shared_ptr<A> pA(new A);
 
   std::cout << pA.get() << std::endl;

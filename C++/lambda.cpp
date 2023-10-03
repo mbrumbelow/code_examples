@@ -3,8 +3,7 @@
 #include <iterator>
 #include <algorithm>
 
-int main()
-{
+int main() {
   typedef std::istream_iterator<int> in;
 
   std::cout << "Type in any number: ";

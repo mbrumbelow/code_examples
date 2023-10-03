@@ -30,8 +30,7 @@ public:
 	}
 };
 
-int main()
-{
+int main() {
 	// base class pointer to derived class object
 	Animal* animalPtr = new Dog();
 
